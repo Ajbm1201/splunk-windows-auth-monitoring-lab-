@@ -137,3 +137,31 @@ index=main sourcetype=XmlWinEventLog:Security earliest=-15m
 - Correlation rule design
 - Incident investigation workflow
 - Authentication attack simulation
+
+---
+
+## Lab Execution Evidence
+
+### 1️ Universal Forwarder Connectivity
+![Forwarder Connection](Screenshot 2026-02-23 221113.png)
+
+### 2️ Windows Security Events Ingested
+![Security Events](Screenshot 2026-02-24 224026.png)
+
+### 3️ Failed Logon Detection Query (Event ID 4625)
+![4625 Query](Screenshot 2026-02-24 224324.png)
+
+### 4️ Threshold Rule Statistics View
+![Statistics View](Screenshot 2026-02-24 224921.png)
+
+### 5️ Triggered Alert (Medium Severity)
+![Triggered Alert](Screenshot 2026-02-25 204627.png)
+
+### 6️ Target User Investigation
+![User Investigation](Screenshot 2026-02-26 211141.png)
+
+### 7️ Logon Type Analysis
+![Logon Type](Screenshot 2026-02-26 211718.png)
+
+### 8️ Correlated Brute Force Detection
+![Correlation Detection](Screenshot 2026-02-27 164307.png)
