@@ -140,6 +140,21 @@ index=main sourcetype=XmlWinEventLog:Security earliest=-15m
 
 ---
 
+## Incident Summary
+
+During lab execution, multiple failed authentication attempts (Event ID 4625) were detected within a 15-minute window, triggering a Medium severity alert.
+
+Further investigation identified:
+- Targeted local account activity
+- Logon Type analysis indicating network-based authentication attempts
+- No successful interactive compromise
+
+A correlated detection rule was engineered to identify brute-force behavior by detecting ≥5 failed logons followed by ≥1 successful logon within 15 minutes.
+
+This rule escalates severity to High when triggered.
+
+---
+
 ## Lab Execution Evidence
 
 ### 1️⃣ Universal Forwarder Connectivity
