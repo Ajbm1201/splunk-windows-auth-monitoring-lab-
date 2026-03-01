@@ -142,26 +142,29 @@ index=main sourcetype=XmlWinEventLog:Security earliest=-15m
 
 ## Lab Execution Evidence
 
-### 1️ Universal Forwarder Connectivity
-![Forwarder Connection](Screenshot 2026-02-23 221113.png)
+### 1️⃣ Universal Forwarder Connectivity
+![Forwarder Connection](Screenshot%202026-02-23%20221113.png)
 
-### 2️ Windows Security Events Ingested
-![Security Events](Screenshot 2026-02-24 224026.png)
+### 2️⃣ Windows Security Events Ingested
+![Security Events](Screenshot%202026-02-23%20224026.png)
 
-### 3️ Failed Logon Detection Query (Event ID 4625)
-![4625 Query](Screenshot 2026-02-24 224324.png)
+### 3️⃣ Failed Logon Detection Query (Event ID 4625)
+![4625 Query](Screenshot%202026-02-24%20224324.png)
 
-### 4️ Threshold Rule Statistics View
-![Statistics View](Screenshot 2026-02-24 224921.png)
+### 4️⃣ Threshold Rule Statistics View
+![Statistics View](Screenshot%202026-02-24%20224921.png)
 
-### 5️ Triggered Alert (Medium Severity)
-![Triggered Alert](Screenshot 2026-02-25 204627.png)
+### 5️⃣ Triggered Alert (Medium Severity)
+![Triggered Alert](Screenshot%202026-02-25%20204627.png)
 
-### 6️ Target User Investigation
-![User Investigation](Screenshot 2026-02-26 211141.png)
+### 6️⃣ Target User Investigation
+![User Investigation](Screenshot%202026-02-26%20211141.png)
 
-### 7️ Logon Type Analysis
-![Logon Type](Screenshot 2026-02-26 211718.png)
+### 7️⃣ Logon Type Analysis
+![Logon Type](Screenshot%202026-02-26%20211718.png)
 
-### 8️ Correlated Brute Force Detection
-![Correlation Detection](Screenshot 2026-02-27 164307.png)
+### 8️⃣ Correlated Brute Force Detection
+![Correlation Detection](Screenshot%202026-02-27%20164307.png)
+
+### 9️⃣ Correlated Detection Validation
+![Correlation Validation](Screenshot%202026-02-27%20164454.png)
